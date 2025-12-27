@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Match your splash screen background color -->
+    <item android:drawable="@color/splash_blue" />
+    
+    <!-- Centered splash icon (same as Flutter splash) -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash_icon" />
+    </item>
+</layer-list>
